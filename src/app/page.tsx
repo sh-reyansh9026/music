@@ -1,5 +1,9 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
 import HeroSection from "@/components/HeroSection";
+import MusicSchoolTestimonials from "@/components/TestimonialCards";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
+import WhyChooseUs from "@/components/WhyChooseUs";
+import Instructors from "@/components/Instructors";
 
 export default function Home() {
   return (
@@ -8,7 +12,10 @@ g—grid—white/[0.02] ">
       
       <HeroSection />
       <FeaturedCourses />
-      
-</main>
+      <WhyChooseUs />
+      <MusicSchoolTestimonials />
+      <UpcomingWebinars />
+      <Instructors />
+      </main>
   );
 }

@@ -1,10 +1,14 @@
 import type { NextConfig } from "next";
 
-const nextConfig: NextConfig = {
-  /* config options here */
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  
+  output: "export", // Enables static export
+  basePath: "/music", // Replace with your GitHub repo name
   images: {
         domains: ['images.unsplash.com', 'res.cloudinary.com']
-    }
+    },
 };
 
-export default nextConfig;
+module.exports = nextConfig;
